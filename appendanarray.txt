@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adding object in array</title>
+	<style>
+		body {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 style="color: green">append Anarray</h1>
+	<p>Click the button to add new elements to the array.</p>
+
+	<button onclick="pushFunction()">Add elements</button>
+
+	<p id="geeks"></p>
+
+	<script>
+		var list = ["One", "Two", "Three"];
+		document.getElementById("geeks").innerHTML = list;
+
+		function pushFunction() {
+			list.push("Four", "Five", );
+			document.getElementById("geeks").innerHTML = list;
+		}
+	</script>
+</body>
+</html>

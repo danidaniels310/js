@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Area of Triangle </title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <script>
+        // calculate area of triangle 
+
+        var base = prompt("enter the value of base of triangle") ;
+        document.write("base  : " + base + "m") ;
+        var height = prompt("enter the value of height ") ;
+        document.write("<br> height : "+ height+"m");
+        var area = 0.5*base*height ;
+        document.write("<br> area of tringle = " + area + "sq m") ;
+
+
+        // calculate area rectangle 
+        var length = prompt('enter the length of rectangle ') ;
+        document.write("<br><br>length : " + length + "m") ;
+        var breadth = prompt("enter the value of breadth ") ;
+        document.write("<br>breadth : "+ breadth +"m") ;
+        var area_of_rectangle = breadth * length ;
+        document.write('<br>area of rectangle is = '+area_of_rectangle+ "sq m");
+
+        // area of circle 
+        var radius = prompt("enter the radius value ") ;
+        document.write("<br><br>radius is :"+ radius+ "m");
+        var area= Math.PI * radius*radius ;
+        document.write("<br>area of circle is = " +  area + "sq m")
+
+
+    </script>
+    
+</body>
+</html>
